@@ -32,19 +32,6 @@ const translations = {
     download: 'Lebenslauf herunterladen',
     jobs: [
       {
-        title: 'Associate QA Automation Engineer',
-        company: 'Jeeves Information Systems (Forterro)',
-        duration: '05/2022 - 06/2023',
-        points: [
-          'Entwickelte und pflegte Selenium-WebDriver-Automatisierung in Java mit TestNG, Maven, Page Object Model und Page Factory für ERP-Webmodule wie Auftragsverwaltung, Lagerbestand, Einkauf und Finanzen. Abgedeckt waren Regressions-, Smoke- und Sanity-Suiten; der manuelle Testaufwand sank um 25 %.',
-          'Pflegte bestehende Testsuiten durch Aktualisierung von Locatoren, Behebung instabiler Tests und Anpassung der Skripte an UI-Änderungen über mehrere Releases und nutzte Apache POI für datengetriebene Tests mit Excel-Testdaten.',
-          'Entwickelte API-Automatisierung mit REST Assured und Postman und testete SOAP-Webservices mit SoapUI. Dabei validierte ich Request/Response-Korrektheit, Integrationsqualität und Datenintegrität über ERP-Services und Drittanbieter-Integrationen hinweg.',
-          'Führte Backend- und Datenbankvalidierungen mit SQL und PostgreSQL durch, einschließlich Batch-Verarbeitung, Datentransformationen sowie Abstimmungs- und Reporting-Prüfungen für Finanz- und Logistikdaten.',
-          'Führte Funktions-, Integrations-, System-, End-to-End-, Regressions- und explorative Tests durch, wendete Grenzwertanalyse und Äquivalenzklassenbildung an und prüfte Anforderungen auf Testbarkeit und klare Akzeptanzkriterien.',
-          'Erfasste und verfolgte Defects in Jira bis zur Behebung, verwaltete Testfälle in Xray und Zephyr, veröffentlichte Allure-Reports, unterstützte die Ausführung von Jenkins-Pipelines und nahm in einem agilen Team an Sprint Planning, Refinement und Retrospektiven teil.'
-        ]
-      },
-      {
         title: 'QA Automation Engineer / SDET',
         company: 'Jeeves Information Systems (Forterro)',
         duration: '06/2023 - 01/2025',
@@ -57,6 +44,19 @@ const translations = {
           'Führte Performance- und Lasttests mit JMeter, Gatling, Locust und k6 durch und analysierte die Ergebnisse, um das Verhalten von Anwendung und APIs unter Last im Rahmen der Release-Tests zu bewerten.',
           'Verantwortete Regressions-Freigaben und Release-Validierung als Quality Gate, definierte risikobasierte Teststrategien, Testpläne und Aufwandsschätzungen, verankerte QA in der Definition of Done und steigerte die Geschwindigkeit der Release-Validierung um 40 %.',
           'Betreute QA-Engineers im Mentoring, führte Code-Reviews durch und etablierte Automatisierungsstandards, leitete den Wechsel von SVN zu Git mit Branching- und Pull-Request-Workflows und führte KI-gestützte Tools (GitHub Copilot, Claude Code) für Testgenerierung, Refactoring und Fehler-Ursachenanalyse ein, ergänzt durch Playwright Trace Viewer, Allure und Slack-Reporting.'
+        ]
+      },
+      {
+        title: 'Associate QA Automation Engineer',
+        company: 'Jeeves Information Systems (Forterro)',
+        duration: '05/2022 - 06/2023',
+        points: [
+          'Entwickelte und pflegte Selenium-WebDriver-Automatisierung in Java mit TestNG, Maven, Page Object Model und Page Factory für ERP-Webmodule wie Auftragsverwaltung, Lagerbestand, Einkauf und Finanzen. Abgedeckt waren Regressions-, Smoke- und Sanity-Suiten; der manuelle Testaufwand sank um 25 %.',
+          'Pflegte bestehende Testsuiten durch Aktualisierung von Locatoren, Behebung instabiler Tests und Anpassung der Skripte an UI-Änderungen über mehrere Releases und nutzte Apache POI für datengetriebene Tests mit Excel-Testdaten.',
+          'Entwickelte API-Automatisierung mit REST Assured und Postman und testete SOAP-Webservices mit SoapUI. Dabei validierte ich Request/Response-Korrektheit, Integrationsqualität und Datenintegrität über ERP-Services und Drittanbieter-Integrationen hinweg.',
+          'Führte Backend- und Datenbankvalidierungen mit SQL und PostgreSQL durch, einschließlich Batch-Verarbeitung, Datentransformationen sowie Abstimmungs- und Reporting-Prüfungen für Finanz- und Logistikdaten.',
+          'Führte Funktions-, Integrations-, System-, End-to-End-, Regressions- und explorative Tests durch, wendete Grenzwertanalyse und Äquivalenzklassenbildung an und prüfte Anforderungen auf Testbarkeit und klare Akzeptanzkriterien.',
+          'Erfasste und verfolgte Defects in Jira bis zur Behebung, verwaltete Testfälle in Xray und Zephyr, veröffentlichte Allure-Reports, unterstützte die Ausführung von Jenkins-Pipelines und nahm in einem agilen Team an Sprint Planning, Refinement und Retrospektiven teil.'
         ]
       }
     ]
@@ -147,19 +147,6 @@ const translations = {
     download: 'Download Resume',
     jobs: [
       {
-        title: 'Associate QA Automation Engineer',
-        company: 'Jeeves Information Systems (Forterro)',
-        duration: '05/2022 - 06/2023',
-        points: [
-          'Developed and maintained Selenium WebDriver automation in Java using TestNG, Maven, the Page Object Model and Page Factory for ERP web modules such as order management, inventory, purchasing and finance, covering regression, smoke and sanity suites and reducing manual testing effort by 25%.',
-          'Maintained existing test suites by updating locators, fixing flaky tests and adapting scripts to UI changes across releases, and used Apache POI for data-driven testing with Excel test data.',
-          'Built API automation with REST Assured and Postman and performed SOAP web-service testing with SoapUI, validating request/response accuracy, integration correctness and data integrity across ERP services and third-party integrations.',
-          'Performed backend and database validation with SQL and PostgreSQL, including batch-processing workflows, data transformations, reconciliation and reporting checks for financial and logistics data.',
-          'Executed functional, integration, system, end-to-end, regression and exploratory testing, applying boundary-value analysis and equivalence partitioning and reviewing requirements for testability and clear acceptance criteria.',
-          'Logged and tracked defects through resolution in Jira, managed test cases in Xray and Zephyr, published Allure reports, supported Jenkins pipeline execution and took part in sprint planning, refinement and retrospectives in an Agile team.'
-        ]
-      },
-      {
         title: 'QA Automation Engineer / SDET',
         company: 'Jeeves Information Systems (Forterro)',
         duration: '06/2023 - 01/2025',
@@ -172,6 +159,19 @@ const translations = {
           'Conducted performance and load testing with JMeter, Gatling, Locust and k6, analysing results to assess application and API behaviour under load as part of release testing.',
           'Owned regression sign-off and release validation as a quality gate, defined risk-based test strategies, plans and estimates, embedded QA in the Definition of Done and improved release-validation speed by 40%.',
           'Mentored QA engineers, ran code reviews and set automation standards, led the move from SVN to Git with branching and pull-request workflows, and introduced AI-assisted tools (GitHub Copilot, Claude Code) for test generation, refactoring and failure root-cause analysis, with Playwright Trace Viewer, Allure and Slack reporting.'
+        ]
+      },
+      {
+        title: 'Associate QA Automation Engineer',
+        company: 'Jeeves Information Systems (Forterro)',
+        duration: '05/2022 - 06/2023',
+        points: [
+          'Developed and maintained Selenium WebDriver automation in Java using TestNG, Maven, the Page Object Model and Page Factory for ERP web modules such as order management, inventory, purchasing and finance, covering regression, smoke and sanity suites and reducing manual testing effort by 25%.',
+          'Maintained existing test suites by updating locators, fixing flaky tests and adapting scripts to UI changes across releases, and used Apache POI for data-driven testing with Excel test data.',
+          'Built API automation with REST Assured and Postman and performed SOAP web-service testing with SoapUI, validating request/response accuracy, integration correctness and data integrity across ERP services and third-party integrations.',
+          'Performed backend and database validation with SQL and PostgreSQL, including batch-processing workflows, data transformations, reconciliation and reporting checks for financial and logistics data.',
+          'Executed functional, integration, system, end-to-end, regression and exploratory testing, applying boundary-value analysis and equivalence partitioning and reviewing requirements for testability and clear acceptance criteria.',
+          'Logged and tracked defects through resolution in Jira, managed test cases in Xray and Zephyr, published Allure reports, supported Jenkins pipeline execution and took part in sprint planning, refinement and retrospectives in an Agile team.'
         ]
       }
     ]
